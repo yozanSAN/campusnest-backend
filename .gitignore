@@ -1,0 +1,15 @@
+# General
+node_modules/
+.env
+
+# Nested dependencies (for your monorepo structure)
+**/node_modules/
+**/dist/
+**/build/
+
+# Local env files in subfolders
+**/.env
+**/.env.local
+
+# Debug logs
+*.log
